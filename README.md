@@ -4,8 +4,8 @@ This code shows how to build an image classifier by using deep learning model in
 ## Install
 
 - **1) Import Resources**
-  tensorflow version >= 2.0.0
-  tensorflow_datasets version >= 4.3.0+nightly
+  - tensorflow version >= 2.0.0
+  - tensorflow_datasets version >= 4.3.0+nightly
   ```
   !pip install grpcio
   !pip install tensorflow --upgrade --user
