@@ -16,5 +16,8 @@ This code shows how to build an image classifier by using deep learning model in
   
 - **3) Download the file label_map.json**
   This file contains a mapping from label to category name, which is a dictionary mapping the integer coded labels to the actual names of the flowers.
+  
+## Usage
+See an example in this file: _Project_Image_Classifier_Project.ipynb_
 
 
