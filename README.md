@@ -12,10 +12,10 @@ This code shows how to build an image classifier by using deep learning model in
   !pip install tfds-nightly --user
   ```
 - **2) Download data to default local directory "~/tensorflow_datasets"**
-  ```!python -m tensorflow_datasets.scripts.download_and_prepare --register_checksums=True --datasets=oxford_flowers102```
+  - `!python -m tensorflow_datasets.scripts.download_and_prepare --register_checksums=True --datasets=oxford_flowers102`
   
 - **3) Download the file label_map.json**
-  This file contains a mapping from label to category name, which is a dictionary mapping the integer coded labels to the actual names of the flowers.
+  - This file contains a mapping from label to category name, which is a dictionary mapping the integer coded labels to the actual names of the flowers.
   
 ## Usage
 See an example in this file: _Project_Image_Classifier_Project.ipynb_
